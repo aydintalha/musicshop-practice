@@ -1,0 +1,68 @@
+/* header */
+h1 {
+    text-align: center;
+    background-color: thistle;
+    padding: 16px;
+    border: 8px solid #333;
+    border-radius: 10px;
+}
+/* header */
+
+
+/* nav bar */
+nav>ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+nav>ul>li {
+    float: left;
+}
+nav>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav>ul>li a:hover {
+    background-color: #111;
+}
+
+/* nav bar */
+
+/* content */
+section {
+    text-align: center;
+    margin: auto 20%;
+}
+section>ul {
+    list-style-type: none;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+section>ul>li {
+    margin: 5px;
+}
+/* content */
+
+/* about-us section */
+    section.sec-about {
+        text-align: left;
+    }
+    section.sec-about>article {
+        margin: 3vw;
+        font-size: 1.2em;
+    }
+/* about-us section */
+
+/* products */
+div.product-class>div {
+    border: 5px solid #333;
+    border-radius: 10px;
+    margin: 1vw;
+}
+/* products */
